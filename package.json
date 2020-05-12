@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "\"\"\u001b[DFirst Node.js work\"",
+  "main": "myprogram.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrasadiSewwandi/Chat-Application.git"
+  },
+  "author": "Prasadi Sewwandi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrasadiSewwandi/Chat-Application/issues"
+  },
+  "homepage": "https://github.com/PrasadiSewwandi/Chat-Application#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
