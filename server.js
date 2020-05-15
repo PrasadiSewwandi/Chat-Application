@@ -8,7 +8,7 @@ var server = app.listen(3000,() =>{
     console.log('server is running on port', server.address().port);
 });
 app.use(express.static(__dirname));
-var dbUrl = 'mongodb://username:pass@ds257981.mlab.com:57981/chatApplicationDB'
+var dbUrl = 'mongodb+srv://cluster0-0basb.mongodb.net/chatApplicationDB'
 mongoose.connect(dbUrl , (err) => {
     console.log('mongodb connected', err);
 });
